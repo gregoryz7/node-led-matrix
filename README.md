@@ -1,31 +1,21 @@
-# Hzeller Matrix
-
-A module for generating animations on a Raspberry PI.
-Before you install this, please read this https://github.com/hzeller/rpi-rgb-led-matrix.
-
-An example of using this module is available here https://github.com/meg768/hzeller-matrix-example.
-
-
+# Node JS Module for HUB 75 LED MATRIX Boards. 
+# This was originally created by meg768 available here https://github.com/meg768/hzeller-matrix-example.
+meg768 notes below:
+An example of using this module is 
 ## Installation
 	$ npm install hzeller-matrix --save
-
 Before you install, make sure you have GraphicsMagick installed on the Pi, and some other stuff.
-
 	$ sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get install libwebp-dev
 	$ sudo aptitude update && sudo aptitude install libgraphicsmagick++1-dev
-
 ## Usage
-
 	var Matrix = require('hzeller-matrix');
 	var matrix = new Matrix({width:32, height:32});
-
 	matrix.runText('Hello World');
-
 ## Note (2016-07-28)
-
 This has been working fine on a Raspberry Pi 2. But I have not been able to
 get a stable image/animation using a Raspberry Pi 3. It might be my long cables.
 Just a heads up.
+
 
 ## Constructor
 
