@@ -1,7 +1,7 @@
 # Node JS Module for HUB 75 LED MATRIX Boards. 
 # This was originally created by meg768 available here https://github.com/meg768/hzeller-matrix-example.
 meg768 notes below:
-An example of using this module is 
+
 ## Installation
 	$ npm install hzeller-matrix --save
 Before you install, make sure you have GraphicsMagick installed on the Pi, and some other stuff.
