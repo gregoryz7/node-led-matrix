@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "hzeller-matrix@^1.0.26",
+        "scope": null,
+        "escapedName": "hzeller-matrix",
+        "name": "hzeller-matrix",
+        "rawSpec": "^1.0.26",
+        "spec": ">=1.0.26 <2.0.0",
+        "type": "range"
+      },
+      "/home/pi/hzeller-matrix-example"
+    ]
+  ],
+  "_from": "hzeller-matrix@>=1.0.26 <2.0.0",
+  "_id": "hzeller-matrix@1.0.70",
+  "_inCache": true,
+  "_location": "/hzeller-matrix",
+  "_nodeVersion": "4.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/hzeller-matrix-1.0.70.tgz_1477775748530_0.08975577959790826"
+  },
+  "_npmUser": {
+    "name": "meg768",
+    "email": "magnus@egelberg.se"
+  },
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hzeller-matrix@^1.0.26",
+    "scope": null,
+    "escapedName": "hzeller-matrix",
+    "name": "hzeller-matrix",
+    "rawSpec": "^1.0.26",
+    "spec": ">=1.0.26 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hzeller-matrix/-/hzeller-matrix-1.0.70.tgz",
+  "_shasum": "16d19ec318bfe1c4d68ca23dc131299bbe21733a",
+  "_shrinkwrap": null,
+  "_spec": "hzeller-matrix@^1.0.26",
+  "_where": "/home/pi/hzeller-matrix-example",
+  "author": {
+    "name": "meg768"
+  },
+  "bugs": {
+    "url": "https://github.com/meg768/hzeller-matrix/issues"
+  },
+  "dependencies": {
+    "nan": "^2.3.5"
+  },
+  "description": "Raspberry Pi RGB Matrix addon for Node",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "16d19ec318bfe1c4d68ca23dc131299bbe21733a",
+    "tarball": "https://registry.npmjs.org/hzeller-matrix/-/hzeller-matrix-1.0.70.tgz"
+  },
+  "gitHead": "330bc15e300c4747d331586fbc537cd53ce06869",
+  "homepage": "https://github.com/meg768/hzeller-matrix#readme",
+  "license": "ISC",
+  "main": "hzeller-matrix.js",
+  "maintainers": [
+    {
+      "name": "meg768",
+      "email": "magnus@egelberg.se"
+    }
+  ],
+  "name": "hzeller-matrix",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meg768/hzeller-matrix.git"
+  },
+  "scripts": {
+    "install": "make -C hzeller/lib && node-gyp rebuild"
+  },
+  "version": "1.0.70"
+}
