@@ -1,7 +1,6 @@
 # Creating RGB matrix library
 # When you link this library with your binary, you need to add -lrt -lm -lpthread
-# So
-#   -lrgbmatrix
+# So   -lrgbmatrix
 ##
 OBJECTS=gpio.o led-matrix.o framebuffer.o thread.o bdf-font.o graphics.o transformer.o
 TARGET=librgbmatrix.a
@@ -30,7 +29,7 @@ TARGET=librgbmatrix.a
 # If the above fails or you can't implement them, try uncommenting the
 # following line and recompile; it will slow down GPIO, but will as well reduce
 # the frame-rate.
-#DEFINES+=-DRGB_SLOWDOWN_GPIO
+DEFINES+=-DRGB_SLOWDOWN_GPIO
 
 # ------------ Pinout options; usually no change needed here --------------
 
