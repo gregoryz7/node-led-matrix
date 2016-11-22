@@ -15,8 +15,9 @@ Before you install, make sure you have GraphicsMagick installed on the Pi, and s
 # Software:
 Tested with 2016-05-27-raspbian-jessie-lite.img
 # Hardware:
-Tested with RPi2 + Adafruit RGB Matrix HAT https://www.adafruit.com/products/2345
-Tested with RPi3 + Adafruit RGB Matrix HAT https://www.adafruit.com/products/2345
+
+Tested with RPi2 + Adafruit RGB Matrix HAT(wired in PWM mode) https://www.adafruit.com/products/2345 <br />
+Tested with RPi3 (use build options for SLOWDOWN) + Adafruit RGB Matrix HAT(wired in PWM mode) https://www.adafruit.com/products/2345 <br />
 
 ## Constructor
 
