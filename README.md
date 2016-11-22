@@ -1,5 +1,14 @@
 # Node JS Module for HUB 75 LED MATRIX Boards. 
 # This was originally created by meg768 available here https://github.com/meg768/hzeller-matrix-example.
+
+## Note (2016-07-28)
+# Software:
+Tested with 2016-05-27-raspbian-jessie-lite.img
+# Hardware:
+
+Tested with RPi2 + Adafruit RGB Matrix HAT(wired in PWM mode) https://www.adafruit.com/products/2345 <br />
+Tested with RPi3 (use build options for SLOWDOWN) + Adafruit RGB Matrix HAT(wired in PWM mode) https://www.adafruit.com/products/2345 <br />
+
 meg768 notes below:
 
 ## Installation
@@ -11,14 +20,6 @@ Before you install, make sure you have GraphicsMagick installed on the Pi, and s
 	var Matrix = require('hzeller-matrix');
 	var matrix = new Matrix({width:32, height:32});
 	matrix.runText('Hello World');
-## Note (2016-07-28)
-# Software:
-Tested with 2016-05-27-raspbian-jessie-lite.img
-# Hardware:
-
-Tested with RPi2 + Adafruit RGB Matrix HAT(wired in PWM mode) https://www.adafruit.com/products/2345 <br />
-Tested with RPi3 (use build options for SLOWDOWN) + Adafruit RGB Matrix HAT(wired in PWM mode) https://www.adafruit.com/products/2345 <br />
-
 ## Constructor
 
 ### new Matrix(config)
