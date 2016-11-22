@@ -12,10 +12,11 @@ Before you install, make sure you have GraphicsMagick installed on the Pi, and s
 	var matrix = new Matrix({width:32, height:32});
 	matrix.runText('Hello World');
 ## Note (2016-07-28)
-This has been working fine on a Raspberry Pi 2. But I have not been able to
-get a stable image/animation using a Raspberry Pi 3. It might be my long cables.
-Just a heads up.
-
+# Software:
+Tested with 2016-05-27-raspbian-jessie-lite.img
+# Hardware:
+Tested with RPi2 + Adafruit RGB Matrix HAT https://www.adafruit.com/products/2345
+Tested with RPi3 + Adafruit RGB Matrix HAT https://www.adafruit.com/products/2345
 
 ## Constructor
 
